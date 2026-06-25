@@ -1,0 +1,9 @@
+# 本番SMTPパスワードが含まれるファイル — gitに含めない
+send.php
+
+# macOS
+.DS_Store
+
+# htpasswd（パスワードハッシュ）
+test_htpasswd
+.htpasswd

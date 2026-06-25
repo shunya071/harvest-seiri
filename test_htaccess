@@ -1,0 +1,5 @@
+# テスト環境: 先方限定アクセス
+AuthType Basic
+AuthName "preview"
+AuthUserFile  /home/r6036037/public_html/harb-est.com/test/.htpasswd
+Require valid-user
